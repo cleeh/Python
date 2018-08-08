@@ -20,3 +20,8 @@ beforeInt = 20
 print('beforeInt =', beforeInt)
 print('<transform beforeInt into string type>')
 print('beforeInt + " hours":', str(beforeInt) + ' hours')
+
+a = 10
+x = a * 2 if a > 5 else a / 2
+print('a:',a)
+print('(a * 2 if a > 5 else a / 2):',x)
