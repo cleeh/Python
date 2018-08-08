@@ -8,3 +8,9 @@ if getScore >= congraturationScore:
     print(congraturationText)
 else:
     print(encourageText)
+print('')
+    
+typeText = input('Type text written on prompt: ')
+print(typeText)
+typeText = int(input('20 will be added'))
+print(typeText + 20)
