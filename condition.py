@@ -10,7 +10,13 @@ else:
     print(encourageText)
 print('')
     
-typeText = input('Type text written on prompt: ')
+typeText = input('Type text written on prompt:')
 print(typeText)
-typeText = int(input('20 will be added'))
+typeText = int(input('20 will be added:'))
 print(typeText + 20)
+print('')
+
+beforeInt = 20
+print('beforeInt =', beforeInt)
+print('<transform beforeInt into string type>')
+print('beforeInt + " hours":', str(beforeInt) + ' hours')
