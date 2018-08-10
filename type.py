@@ -90,3 +90,10 @@ print('string2 after strip():',string2)
 print('string2.rstrip():',string2.rstrip())
 print('string2.lstrip():',string2.lstrip())
 print('string2.replace("hungry", "follish"):',string2.replace("hungry", "follish"))
+print('')
+
+string3 = ' Stay hungry '
+print('string3:', string3)
+print('string3.split():',string3.split())
+print('string3.split("h"):',string3.split("h"))
+print('"and".join(string3.split()):'," and ".join(string3.split()))
