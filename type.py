@@ -26,11 +26,11 @@ print('')
 class calculator:
     def mul(x, y):
         return x * y
-
+    
     @staticmethod
     def add(x, y):
         return x + y
-
+    
     result = 0
     @classmethod
     def total(x, y):
@@ -72,3 +72,11 @@ twostringb='''fighting \
 today'''
 print('twostringa:',twostringa)
 print('twostringb:',twostringb)
+print('')
+
+string1 = 'Stay hungry, Stay foolish'
+print('string1.count("Stay"):',string1.count("Stay"))
+print('string1.find("Stay"):',string1.find("Stay"))
+print('string1.find("Stay",1):',string1.find("Stay",1))
+print('string1.find("no"):',string1.find("no"))
+print('string1.rindex("Stay"):',string1.rindex("Stay"))
