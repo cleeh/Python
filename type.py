@@ -19,3 +19,20 @@ a=int('19', 16)
 print("int('19',16):",a)
 b=int('32', 8)
 print("int('32',8):",b)
+
+class calculator:
+    def mul(x, y):
+        return x * y
+
+    @staticmethod
+    def add(x, y):
+        return x + y
+
+    result = 0
+    @classmethod
+    def total(x, y):
+        x.result = x.result + y
+        return x.result
+print(calculator.mul(10, 20))
+print(calculator.add(10, 20))
+print(calculator.total(10))
