@@ -75,8 +75,18 @@ print('twostringb:',twostringb)
 print('')
 
 string1 = 'Stay hungry, Stay foolish'
+print('string1:',string1)
 print('string1.count("Stay"):',string1.count("Stay"))
 print('string1.find("Stay"):',string1.find("Stay"))
 print('string1.find("Stay",1):',string1.find("Stay",1))
 print('string1.find("no"):',string1.find("no"))
 print('string1.rindex("Stay"):',string1.rindex("Stay"))
+print('')
+
+string2 = ' Stay hungry '
+print('string2:',string2)
+print('string2.strip():',string2.strip())
+print('string2 after strip():',string2)
+print('string2.rstrip():',string2.rstrip())
+print('string2.lstrip():',string2.lstrip())
+print('string2.replace("hungry", "follish"):',string2.replace("hungry", "follish"))
