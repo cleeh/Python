@@ -22,4 +22,22 @@ print('')
 
 list1 = ["Stay", "hungry"]
 list2 = ["Stay", "hungry", ["Stay","foolish"]]
-print(list2[2])
+print('Overlapped List:',list2[2])
+print('')
+
+list = ["Stay", "hungry", 0, 2]
+print('Original List:\n',list)
+list.append(7)
+print('list.append(7):\n',list)
+list.insert(3,7)
+print('list.insert(3,7):\n',list)
+print('list.index("hungry"):\n',list.index("hungry"))
+print('list.count(7):\n',list.count(7))
+list.remove(7)
+print('list.remove(7):\n',list)
+numberlist = [50,20,100,500,200,3000,1500,10]
+print('Originam numberlist:\n',numberlist)
+numberlist.sort()
+print('numberlist.sort():\n',numberlist)
+numberlist.reverse()
+print('numberlist.reverse():\n',numberlist)
