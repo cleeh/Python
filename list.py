@@ -12,3 +12,9 @@ list[2] = list[2] + 20
 print('list[2] = list[2] + 20:\n',list)
 list[2:4] = [777,888]
 print('list[2:4] = [777,888]:\n',list)
+list[4:4] = ["Stay","foolish"]
+print('list[4:4] = ["Stay","foolish"]:\n',list)
+list[4:6] = []
+print('list[4:6] = []:\n',list)
+del list[0]
+print('del list[0]:\n',list)
