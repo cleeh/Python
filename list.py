@@ -7,6 +7,8 @@ print(list * 2)
 print(len(list))
 print('')
 
-print('Original List:',list)
+print('Original List:\n',list)
 list[2] = list[2] + 20
-print('list[2] = list[2] + 20:',list[2])
+print('list[2] = list[2] + 20:\n',list)
+list[2:4] = [777,888]
+print('list[2:4] = [777,888]:\n',list)
