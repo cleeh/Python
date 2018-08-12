@@ -11,3 +11,11 @@ print('')
 tuple1 = ("Stay", "hungry")
 tuple2 = ("Stay", "hungry", ("Stay", "foolish"))
 print(tuple2[2])
+print('')
+
+print('tuple:\n',tuple)
+print('list(tuple):\n',list(tuple))
+list = list(tuple)
+list[1] = "foolish"
+print("list = list(tuple)")
+print('list[1] = "foolish":\n',list)
