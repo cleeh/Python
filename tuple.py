@@ -6,3 +6,8 @@ print('tuple + (10, 20, "Stay", "foolish"):\n',tuple + (10, 20, "Stay", "foolish
 print('tuple * 2:\n',tuple * 2)
 print('len(tuple):\n',len(tuple))
 print('"hungry" in tuple:\n',"hungry" in tuple)
+print('')
+
+tuple1 = ("Stay", "hungry")
+tuple2 = ("Stay", "hungry", ("Stay", "foolish"))
+print(tuple2[2])
