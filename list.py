@@ -18,3 +18,8 @@ list[4:6] = []
 print('list[4:6] = []:\n',list)
 del list[0]
 print('del list[0]:\n',list)
+print('')
+
+list1 = ["Stay", "hungry"]
+list2 = ["Stay", "hungry", ["Stay","foolish"]]
+print(list2[2])
