@@ -19,3 +19,13 @@ list = list(tuple)
 list[1] = "foolish"
 print("list = list(tuple)")
 print('list[1] = "foolish":\n',list)
+print('')
+
+# Case: Return values more than two
+def addmul(a,b):
+    return a + b, a * b
+# Case: When tuple values are used for arguments of function
+arguments = (100, 200)
+print('addmul(*(100, 200)):',addmul(*arguments))
+# Case: Format String is used
+print("%d %f %s" % (1000, 3.141592, "Stay foolish"))
