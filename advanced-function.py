@@ -19,6 +19,10 @@ def deco(type='bold'):
     else:
         return bold    #Return Function
 dec = deco()
-print('dec=deco(), dec("¾È³çÇÏ¼¼¿ä ¹Ý°©½À´Ï´Ù."):', dec("¾È³çÇÏ¼¼¿ä ¹Ý°©½À´Ï´Ù."))
+print('dec=deco(), dec("Hello, Nice to meet you."):', dec("Hello, Nice to meet you."))
 dec = deco('italic')
-print('dec=deco(), dec("¾È³çÇÏ¼¼¿ä ¹Ý°©½À´Ï´Ù."):', dec("¾È³çÇÏ¼¼¿ä ¹Ý°©½À´Ï´Ù."))
+print('dec=deco(), dec("Hello, Nice to meet you."):', dec("Hello, Nice to meet you."))
+print('')
+
+l = lambda x, y : x + y
+print("lambda x, y : x + y -> l(10, 20):",l(10, 20))
