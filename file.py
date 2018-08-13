@@ -17,3 +17,13 @@ with open('fileIO.txt','w') as files:
 with open('fileIO.txt') as files:
     print(files.read())
     files.close()
+
+with open('fileIO.txt') as files:
+    print(files.readline())
+    print(files.readline())
+    print(files.readline(4))
+    files.close()
+
+with open('fileIO.txt') as files:
+    print('files.readlines():',files.readlines())
+    files.close()
