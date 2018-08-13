@@ -6,7 +6,7 @@ except ZeroDivisionError:
 try:
     print("String" + 100)
 except TypeError:
-    print('Two object type is not matchec each other')
+    print('Two object type is not matched each other')
     
 try:
     string1 = "String"
@@ -19,3 +19,5 @@ try:
     print(dic[3])
 except KeyError:
     print('No key is matched')
+finally:
+    print('\'finally\' always executed')
