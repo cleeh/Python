@@ -7,3 +7,18 @@ print('addfunc(100, 200):', addfunc(100, 200))
 def f(g, a, b): # Pass 'g' function
     return g(a, b)
 print('f(add, 200, 300):',f(add, 200, 300))
+print('')
+
+def deco(type='bold'):
+    def italic(s):
+        return '<i>' + s + '</i>'
+    def bold(s):
+        return '<b>' + s + '</b>'
+    if type == 'italic':
+        return italic    # Return Function
+    else:
+        return bold    #Return Function
+dec = deco()
+print('dec=deco(), dec("æ»≥Á«œººø‰ π›∞©Ω¿¥œ¥Ÿ."):', dec("æ»≥Á«œººø‰ π›∞©Ω¿¥œ¥Ÿ."))
+dec = deco('italic')
+print('dec=deco(), dec("æ»≥Á«œººø‰ π›∞©Ω¿¥œ¥Ÿ."):', dec("æ»≥Á«œººø‰ π›∞©Ω¿¥œ¥Ÿ."))
