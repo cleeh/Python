@@ -7,3 +7,9 @@ try:
     print("String" + 100)
 except TypeError:
     print('Two object type is not matchec each other')
+    
+try:
+    string1 = "String"
+    print(string1[100])
+except IndexError:
+    print('Index range over')
