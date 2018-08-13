@@ -13,3 +13,9 @@ try:
     print(string1[100])
 except IndexError:
     print('Index range over')
+    
+try:
+    dic = {"1":1, "2":2}
+    print(dic[3])
+except KeyError:
+    print('No key is matched')
